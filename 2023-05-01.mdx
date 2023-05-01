@@ -1,0 +1,37 @@
+### 현재 구조
+
+![https://user-images.githubusercontent.com/58586537/235426291-9ff2df9b-20f8-46fc-a09e-c1942dd3b52d.png](https://user-images.githubusercontent.com/58586537/235426291-9ff2df9b-20f8-46fc-a09e-c1942dd3b52d.png)
+
+### 데이터베이스 구조
+
+![https://user-images.githubusercontent.com/58586537/235426335-42d79919-06b3-4f38-b5c3-c2a5b6bcdf7a.png](https://user-images.githubusercontent.com/58586537/235426335-42d79919-06b3-4f38-b5c3-c2a5b6bcdf7a.png)
+
+### 프론트엔드
+
+과정, 닉네임 입력하여 간단하게 로그인 기능 구현
+
+다른 크루들의 채팅 확인 기능
+
+### 백엔드
+
+GPT API 요청 전송 및 답변 정보 저장.
+
+별도의 인증 작업은 처리하지 않았고 닉네임으로만 회원가입 후 사용하도록 구현
+
+채팅 조회 기능 + 검색 조건(과정 & 이름 & 제목) + 페이징
+
+단일 채팅 조회 기능
+
+배포 환경에서 스키마 버전 관리를 위해 flyway 사용
+
+젠킨스 사용하여 백엔드 배포 자동화
+
+백엔드 배포 시 추가 배치를 통한 롤링 형식으로 배포되도록 설정
+
+### Todo
+
+댓글 기능
+
+자신의 질문 모아보기 기능(아니면 프로필이나 채팅 화면에서 볼 수 있도록)
+
+Github OAuth
